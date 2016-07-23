@@ -1,6 +1,6 @@
-# MessagesSwift ![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/MessagesSwift/badge.png) [![Platform](https://img.shields.io/cocoapods/p/MessagesSwift.svg)](http://cocoadocs.org/docsets/MessagesSwift/) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://travis-ci.org/devcarlos/MessagesSwift.svg)](https://travis-ci.org/devcarlos/MessagesSwift) [![license MIT](https://img.shields.io/cocoapods/l/MessagesSwift.svg)](http://opensource.org/licenses/MIT)
+# SwiftMessages ![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/SwiftMessages/badge.png) [![Platform](https://img.shields.io/cocoapods/p/SwiftMessages.svg)](http://cocoadocs.org/docsets/SwiftMessages/) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://travis-ci.org/devcarlos/SwiftMessages.svg)](https://travis-ci.org/devcarlos/SwiftMessages) [![license MIT](https://img.shields.io/cocoapods/l/SwiftMessages.svg)](http://opensource.org/licenses/MIT)
 
-MessagesSwift is an an elegant messages UI library for iOS written in Swift
+SwiftMessages is an an elegant messages UI library for iOS written in Swift
 
 ## Features
 
@@ -14,7 +14,7 @@ MessagesSwift is an an elegant messages UI library for iOS written in Swift
 
 ![Screenshot2][img2] &nbsp;&nbsp; ![Screenshot3][img3]
 
-> More screenshots available at [CocoaControls](https://www.cocoacontrols.com/controls/MessagesSwift)
+> More screenshots available at [CocoaControls](https://www.cocoacontrols.com/controls/SwiftMessages)
 
 ## Design Goals
 
@@ -39,10 +39,10 @@ MessagesSwift is an an elegant messages UI library for iOS written in Swift
 
 ````ruby
 # For latest release in cocoapods
-pod 'MessagesSwift'
+pod 'SwiftMessages'
 
 # Latest on develop
-pod 'MessagesSwift', :git => 'https://github.com/devcarlos/MessagesSwift.git', :branch => 'develop'
+pod 'SwiftMessages', :git => 'https://github.com/devcarlos/SwiftMessages.git', :branch => 'develop'
 ````
 
 ## Questions & Help
@@ -64,7 +64,7 @@ Read the docs, [available here][docsLink] via [@CocoaDocs](https://twitter.com/C
 
 Just ping me on Slack at [@carlosalcala](https://ios-developers.slack.com/).
 
-> **Interested in becoming a core contributor with push access? See our [onboarding guide](https://github.com/jessesquires/MessagesSwift/blob/develop/Documentation/contributor_onboarding.md) for details.**
+> **Interested in becoming a core contributor with push access? See our [onboarding guide](https://github.com/jessesquires/SwiftMessages/blob/develop/Documentation/contributor_onboarding.md) for details.**
 
 ## Credits
 
@@ -78,7 +78,7 @@ Just ping me on Slack at [@carlosalcala](https://ios-developers.slack.com/).
 
 ## License
 
-`MessagesSwift` is released under an [MIT License][mitLink]. See `LICENSE` for details.
+`SwiftMessages` is released under an [MIT License][mitLink]. See `LICENSE` for details.
 
 >**Copyright &copy; 2016 Carlos Alcala.**
 
