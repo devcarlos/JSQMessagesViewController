@@ -1,16 +1,12 @@
-![JSQMessagesViewController banner](https://raw.githubusercontent.com/jessesquires/JSQMessagesViewController/develop/Assets/jsq_messages_banner.png)
+# MessagesSwift ![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/MessagesSwift/badge.png) [![Platform](https://img.shields.io/cocoapods/p/MessagesSwift.svg)](http://cocoadocs.org/docsets/MessagesSwift/) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://travis-ci.org/devcarlos/MessagesSwift.svg)](https://travis-ci.org/devcarlos/MessagesSwift) [![license MIT](https://img.shields.io/cocoapods/l/MessagesSwift.svg)](http://opensource.org/licenses/MIT)
 
-[![Build Status](https://secure.travis-ci.org/jessesquires/JSQMessagesViewController.svg)](https://travis-ci.org/jessesquires/JSQMessagesViewController) [![Version Status](https://img.shields.io/cocoapods/v/JSQMessagesViewController.svg)][podLink] [![license MIT](https://img.shields.io/cocoapods/l/JSQMessagesViewController.svg)][mitLink] [![codecov](https://codecov.io/gh/jessesquires/JSQMessagesViewController/branch/develop/graph/badge.svg)](https://codecov.io/gh/jessesquires/JSQMessagesViewController) [![Platform](https://img.shields.io/cocoapods/p/JSQMessagesViewController.svg)][docsLink]
+MessagesSwift is an an elegant messages UI library for iOS written in Swift
 
-------------------------
+## Features
 
-## :warning: Announcement :warning:
-
-Development on version `8.0` of the library is underway. Learn more at [#1216](https://github.com/jessesquires/JSQMessagesViewController/issues/1216) and [#1336](https://github.com/jessesquires/JSQMessagesViewController/issues/1336).
-
-Submit work for `v8.0` to the [`develop`](https://github.com/jessesquires/JSQMessagesViewController/tree/develop) branch.
-
-Submit fixes for `v7.3.x` to the [`release_7.3`](https://github.com/jessesquires/JSQMessagesViewController/tree/release_7.3) branch.
+* Swift 2+
+* Support many required functions for parsing dates
+* Easy installation and customization
 
 ------------------------
 
@@ -18,17 +14,14 @@ Submit fixes for `v7.3.x` to the [`release_7.3`](https://github.com/jessesquires
 
 ![Screenshot2][img2] &nbsp;&nbsp; ![Screenshot3][img3]
 
-> More screenshots available at [CocoaControls](https://www.cocoacontrols.com/controls/jsqmessagesviewcontroller)
-
-## Features
-
-See the [website](http://www.jessesquires.com/JSQMessagesViewController/) for the list of features.
+> More screenshots available at [CocoaControls](https://www.cocoacontrols.com/controls/MessagesSwift)
 
 ## Design Goals
 
 - Closely mimic [iMessage](http://www.apple.com/ios/messages/) style and behavior
 - [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) design
-- Easy customization and extension for clients
+- `VIPER` design pattern
+- Easy customization
 
 ## Dependencies
 
@@ -36,7 +29,8 @@ See the [website](http://www.jessesquires.com/JSQMessagesViewController/) for th
 
 ## Requirements
 
-* iOS 7.0+
+* Swift 2.2
+* iOS 9.3
 * ARC
 
 ## Installation
@@ -45,57 +39,48 @@ See the [website](http://www.jessesquires.com/JSQMessagesViewController/) for th
 
 ````ruby
 # For latest release in cocoapods
-pod 'JSQMessagesViewController'
+pod 'MessagesSwift'
 
 # Latest on develop
-pod 'JSQMessagesViewController', :git => 'https://github.com/jessesquires/JSQMessagesViewController.git', :branch => 'develop'
+pod 'MessagesSwift', :git => 'https://github.com/devcarlos/MessagesSwift.git', :branch => 'develop'
 ````
-
-## Getting Started
-
-See the [Getting Started](https://github.com/jessesquires/JSQMessagesViewController/blob/develop/Documentation/getting_started.md) guide!
 
 ## Questions & Help
 
-* Review the [FAQ](https://github.com/jessesquires/JSQMessagesViewController/blob/develop/Documentation/faq.md).
-* Search issues for previous and current [questions](https://github.com/jessesquires/JSQMessagesViewController/issues?utf8=✓&q=label%3A%22questions+%26+help%22+). *Do not open duplicates.*
-* [StackOverflow](http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller) is often the most appropriate place for questions and help. We have our own tag, `jsqmessagesviewcontroller`.
-* See the [Migration Guide](https://github.com/jessesquires/JSQMessagesViewController/blob/develop/Documentation/migration.md) for migrating between major versions of the library.
+* [StackOverflow](http://stackoverflow.com) is often the most appropriate place for questions and help.
 * **Only ask questions that are _specific_ to this library.**
-* **Please avoid emailing questions.** I prefer to keep questions and their answers open-source.
+* **Please avoid emailing questions.** keep questions and their answers open-source.
 
 ## Documentation
 
 Read the docs, [available here][docsLink] via [@CocoaDocs](https://twitter.com/CocoaDocs).
 
-## Core team
+## Team of: 1
 
-- Jesse Squires ([**@jesse_squires**](https://twitter.com/jesse_squires))
-- Harlan Haskans ([**@harlanhaskins**](https://github.com/harlanhaskins))
-- Eli Burke ([**@eliburke**](https://github.com/eliburke))
-- Sebastian Ludwig ([**@sebastianludwig**](https://github.com/sebastianludwig))
+- Carlos Alcala ([**@carlosalcala**](https://twitter.com/carlosalcala))
+
 
 ## Contributing
 
-Please follow these sweet [contribution guidelines](https://github.com/jessesquires/JSQMessagesViewController/blob/develop/.github/CONTRIBUTING.md).
+Just ping me on Slack at [@carlosalcala](https://ios-developers.slack.com/).
 
-> **Interested in becoming a core contributor with push access? See our [onboarding guide](https://github.com/jessesquires/JSQMessagesViewController/blob/develop/Documentation/contributor_onboarding.md) for details.**
+> **Interested in becoming a core contributor with push access? See our [onboarding guide](https://github.com/jessesquires/MessagesSwift/blob/develop/Documentation/contributor_onboarding.md) for details.**
 
 ## Credits
 
-* Created and maintained by [**@jesse_squires**](https://twitter.com/jesse_squires).
-* Many thanks to [**the contributors**](https://github.com/jessesquires/JSQMessagesViewController/graphs/contributors) of this project.
-* iOS assets extracted using [**@0xced**](https://github.com/0xced) / [iOS-Artwork-Extractor](https://github.com/0xced/iOS-Artwork-Extractor).
+* Based on `JSQMessagesViewController` [**JSQMessagesViewController**](https://github.com/jessesquires/JSQMessagesViewController)
+* Made by [**@jesse_squires**](https://twitter.com/jesse_squires).
 
-## Apps using this library
+## Author
 
-According to [CocoaPods stats](https://cocoapods.org/pods/JSQMessagesViewController), over **10,000 apps** are using `JSQMessagesViewController`. [Here are the ones](https://github.com/jessesquires/JSQMessagesViewController/blob/develop/Documentation/apps_using_this_library.md) that we know about. Please submit a [pull request](https://github.com/jessesquires/JSQMessagesViewController/compare) to add your app! :smile:
+* Made With love in Cochabamba by [**@carlosalcala**](https://twitter.com/carlosalcala).
+
 
 ## License
 
-`JSQMessagesViewController` is released under an [MIT License][mitLink]. See `LICENSE` for details.
+`MessagesSwift` is released under an [MIT License][mitLink]. See `LICENSE` for details.
 
->**Copyright &copy; 2013-present Jesse Squires.**
+>**Copyright &copy; 2016 Carlos Alcala.**
 
 *Please provide attribution, it is greatly appreciated.*
 
